@@ -1,30 +1,19 @@
-﻿Public Class Form1
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+﻿Public Class frmТреугольник
+    Dim A As Single, B As Single, C As Single, P As Single, Pp As Single, S As Single
+    Private Sub cmdStart_Click(sender As Object, e As EventArgs) Handles cmdStart.Click
+        A = Val(txtA.Text)
+        B = Val(txtB.Text)
+        C = Val(txtC.Text)
 
+        P = A + B + C
+        Pp = P / 2
+        S = Math.Sqrt(Pp * (Pp - A) * (Pp - B) * (Pp - C))
+
+        txtP.Text = Str(P)
+        txtS.Text = Str(S)
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Label1.Text = "ПМИ-б-о-25-1"
-        Label2.Text = "Воронова"
-        Label3.Text = "Дана"
-        Label4.Text = "Вячеславовна"
-    End Sub
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Label1.Text = ""
-        Label2.Text = ""
-        Label3.Text = ""
-        Label4.Text = ""
-    End Sub
-
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Label1.ForeColor = Color.Red
-        Label2.ForeColor = Color.Red
-        Label3.ForeColor = Color.Red
-        Label4.ForeColor = Color.Red
-    End Sub
-
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub cmdEnd_Click(sender As Object, e As EventArgs) Handles cmdEnd.Click
         End
     End Sub
 End Class
