@@ -1,3 +1,24 @@
 .vs/
 **/bin/
 **/obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+Временные файлы кэша, отладки и логи
+
+*.log
+*.cache
+*.tlog
+*.pdb
+*.ilk
+*.ipch
+
+Системные файлы Windows и macOS (мусор от ОС)
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
