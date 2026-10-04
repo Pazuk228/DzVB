@@ -33,11 +33,10 @@ Partial Class Form1
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Label1.Location = New System.Drawing.Point(359, 100)
+        Me.Label1.Location = New System.Drawing.Point(-2, 97)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(77, 25)
+        Me.Label1.Size = New System.Drawing.Size(806, 25)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Label1"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -45,11 +44,10 @@ Partial Class Form1
         '
         'Label2
         '
-        Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Label2.Location = New System.Drawing.Point(359, 155)
+        Me.Label2.Location = New System.Drawing.Point(3, 161)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(77, 25)
+        Me.Label2.Size = New System.Drawing.Size(801, 25)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Label2"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -63,7 +61,7 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(139, 52)
         Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Пуск 1"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
@@ -74,7 +72,7 @@ Partial Class Form1
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(139, 52)
         Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Button2"
+        Me.Button2.Text = "Пуск 2"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
@@ -85,7 +83,7 @@ Partial Class Form1
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(139, 52)
         Me.Button3.TabIndex = 4
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "Пуск 3"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Button4
@@ -96,7 +94,7 @@ Partial Class Form1
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(139, 52)
         Me.Button4.TabIndex = 5
-        Me.Button4.Text = "Button4"
+        Me.Button4.Text = "Пуск 4"
         Me.Button4.UseVisualStyleBackColor = False
         '
         'Button5
@@ -107,7 +105,7 @@ Partial Class Form1
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(139, 52)
         Me.Button5.TabIndex = 6
-        Me.Button5.Text = "Button5"
+        Me.Button5.Text = "Пуск 5"
         Me.Button5.UseVisualStyleBackColor = False
         '
         'Form1
@@ -126,7 +124,6 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
