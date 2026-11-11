@@ -82,5 +82,4 @@
     Private Sub ClearHint(sender As Object, e As EventArgs) Handles Button1.MouseLeave, Button2.MouseLeave, Button3.MouseLeave, Button4.MouseLeave, Button5.MouseLeave, Button6.MouseLeave
         Label1.Text = ""
     End Sub
-
 End Class
